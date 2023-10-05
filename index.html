@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/pf1.png" alt="logo" class="logo">
+
+
+                <ul id="sidemenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio"> My Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <!-- <i class="fa-solid fa-circle-xmark"></i> -->
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <!-- <i class="fa-solid fa-bars"></i> -->
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <!-- <strong><h2>This is</h2><br></strong> -->
+                <h3><span id="element"></span></h3>
+                <h1>Hey, I'm <span>Vicky</span> <br> Agr From India.</h1>
+                <a href="#contact" class="btn btn2 btn3">Hire Me</a>
+            </div>
+        </div>
+    </div>
+    <!-- NAV SECTION END  -->
+
+    <!-- ABOUT SECTION START  -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user3.png" alt="user">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>I am UI developer, FrontEnd developer having more than 2 years experience. Apart from that I am
+                        honest, industrious, hard-working, an excellent team worker and collaborator, and I
+                        can easily prioritise tasks to ensure my employer’s goals are always achieved. I have experience
+                        working on time-sensitive projects, dealing with difficult challenges, and communicating with
+                        customers and clients. </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skils</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Web Designing</li>
+                            <li><span>UI Development</span><br>FrontEnd Development</li>
+                            <li><span>Web Developer</span><br>React js Developer</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>More than 2 years as</span><br>FrontEnd Developer at CNC WEB WORLD</li>
+                            <li><span>More than 2 years as</span><br>UI Development at CNC WEB WORLD</li>
+                            <li><span>More than 1.2 years </span><br> Worked in React js</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>B.E(2015)</span><br>C.TECH from RTMNU</li>
+                            <li><span>12th(2011)</span><br> HSC from SKV Jharkhand</li>
+                            <li><span>10th(2009)</span><br>Matric from SSVM Jharkhnad</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- about end -->
+
+    <!-- service start -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+
+                    <i class="fa-brands fa-figma"></i>
+                    <h2>Web Design</h2>
+                    <p>Build websites with a drag-and-drop interface. Content automatically optimises for device.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI Developer</h2>
+                    <p>Understand the user interface design solution both in its practical intent and creative vision.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Developer</h2>
+                    <p> Builds the front-end portion of websites and web applications using React js technology in good
+                        manner.</p>
+                    <a href="#">Learn more</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- SERVICES END -->
+
+    <!-- PORTFOLIO START SECTION -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h2 class="sub-title">My Work</h2>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Travel Site</h3>
+                        <p>This site connect you to different people with different view. You Can visit here.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>E-Commerce Site</h3>
+                        <p>This site is used to buy electronics item. You Can visit here and buy product item.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3> Contest App</h3>
+                        <p>This site connect you to different people with different view. You Can visit here.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- SERVICES END SECTION -->
+
+    <!-- CONTACT START SECTION -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-share-from-square"></i>vickyagrawal14300@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>7004274876</p>
+                    <div class="social-icon">
+                        <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Donload Cv</a>
+                </div>
+                <div class="contact-right">
+                    <form action="https://formspree.io/f/xzbljovd" method="POST">
+                        <input type="text" name="name" id="name" placeholder="* Your Name" required autocomplete="off">
+                        <input type="email" name="email" id="email" placeholder="* Your Email" required
+                            autocomplete="off">
+                        <input type="text" name="phone no." id="phone" placeholder="* Phone no." required
+                            autocomplete="off">
+                        <!-- <input type="text" id="link" placeholder="Profile URL (optinal)" > -->
+                        <textarea name="textarea" id="message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Send Message</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; Vicky, by <i class="fa-solid fa-thumbs-up"></i> FrontEnd Developer</p>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="javascript/script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'UI/UX Developer', 'Web Designer', 'FrontEnd Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+
+
+
+</body>
+
+</html>
